@@ -16,9 +16,11 @@ public class Ejemplo01 {
      */
     public static void main(String[] args) {
         // Declarar y generar arreglos en Java
+        double[] poblacionesPaises = new double[10];
 
         // arreglo de tipo entero
         int[] arreglo1 = new int[5];
+        int[] arregloPrueba = new int[8];
 
         // arreglo de tipo double
         double[] arreglo2 = new double[5];

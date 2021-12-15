@@ -21,6 +21,7 @@ public class Ejemplo08 {
         
         int dato;
         int suma = 0;
+        String cadenaFinal = "";
         // arreglo de tipo entero
         // se le asigna valores concretos al arreglo cuando se lo
         // inicializa
@@ -31,9 +32,11 @@ public class Ejemplo08 {
             // agrego el valor de la posición del arreglo a la variable
             // acumuladora  suma
             suma = suma + arreglo1[i];
+            
+            cadenaFinal = String.format("%s%d\n",cadenaFinal,arreglo1[i]);
         }
         
-        System.out.printf("La suma de los valores del arreglo es: %d\n", suma);
+        System.out.printf("Valores:\n%sLa suma de los valores del arreglo es: %d\n",cadenaFinal, suma);
         
     }
 
